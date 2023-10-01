@@ -1,0 +1,102 @@
+.title {
+    text-align: center;
+    background: #8c8c8c;
+    background: -moz-linear-gradient(135deg, #070707, #a2a0bd, #8c8c8c);
+    background: -webkit-linear-gradient(135deg, #070707, #a2a0bd, #8c8c8c);
+    background: -o-linear-gradient(135deg, #070707, #a2a0bd, #8c8c8c);
+    background: linear-gradient(135deg , #070707, #a2a0bd, #8c8c8c);
+    text-align: center;
+    padding: 3px;
+    background-color: #8c8c8c;
+
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    position: relative;
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+/* Style the links inside the navigation bar */
+.welcomemesg {
+    text-align: center;
+    background: #b77dc4;
+    background: -moz-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: -webkit-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: -o-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: linear-gradient(to bottom , #4f83f3 0%, #b77dc4 100%);
+    color: #3d0c0c;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.aboutme{
+    text-align: center;
+    background: #b77dc4;
+    background: -moz-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: -webkit-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: -o-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: linear-gradient(to bottom , #4f83f3 0%, #b77dc4 100%);
+    color: #3d0c0c;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.projects{
+    text-align: center;
+    background: #b77dc4;
+    background: -moz-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: -webkit-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: -o-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: linear-gradient(to bottom , #4f83f3 0%, #b77dc4 100%);
+    color: #3d0c0c;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.contactform{
+    text-align: center;
+    background: #b77dc4;
+    background: -moz-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: -webkit-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: -o-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: linear-gradient(to bottom , #4f83f3 0%, #b77dc4 100%);
+    color: #3d0c0c;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #3d0c0c;
+    color: azure;
+}
