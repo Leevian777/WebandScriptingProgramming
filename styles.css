@@ -1,3 +1,13 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #b77dc4;
+    background: -moz-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: -webkit-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: -o-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
+    background: linear-gradient(to bottom , #4f83f3 0%, #b77dc4 100%);
+}
 .title {
     text-align: center;
     background: #8c8c8c;
@@ -42,11 +52,6 @@
 /* Style the links inside the navigation bar */
 .welcomemesg {
     text-align: center;
-    background: #b77dc4;
-    background: -moz-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
-    background: -webkit-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
-    background: -o-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
-    background: linear-gradient(to bottom , #4f83f3 0%, #b77dc4 100%);
     color: #3d0c0c;
     padding: 14px 16px;
     text-decoration: none;
@@ -54,35 +59,20 @@
 }
 .aboutme{
     text-align: center;
-    background: #b77dc4;
-    background: -moz-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
-    background: -webkit-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
-    background: -o-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
-    background: linear-gradient(to bottom , #4f83f3 0%, #b77dc4 100%);
     color: #3d0c0c;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 .projects{
-    text-align: center;
-    background: #b77dc4;
-    background: -moz-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
-    background: -webkit-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
-    background: -o-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
-    background: linear-gradient(to bottom , #4f83f3 0%, #b77dc4 100%);
+    text-align: left;
     color: #3d0c0c;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 .contactform{
-    text-align: center;
-    background: #b77dc4;
-    background: -moz-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
-    background: -webkit-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
-    background: -o-linear-gradient(top, #4f83f3 0%, #b77dc4 100%);
-    background: linear-gradient(to bottom , #4f83f3 0%, #b77dc4 100%);
+    text-align: left;
     color: #3d0c0c;
     padding: 14px 16px;
     text-decoration: none;
@@ -99,4 +89,5 @@ footer {
     padding: 3px;
     background-color: #3d0c0c;
     color: azure;
+    margin-top: auto;
 }
