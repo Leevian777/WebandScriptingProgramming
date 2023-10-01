@@ -20,13 +20,23 @@ body{
     background-color: #8c8c8c;
 
 }
+#wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#navbar{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Add a black background color to the top navigation */
 .topnav {
     position: relative;
     background-color: #333;
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -48,7 +58,11 @@ body{
     color: white;
 }
 
-
+#welcomemesg{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;    
+}
 /* Style the links inside the navigation bar */
 .welcomemesg {
     text-align: center;
@@ -57,6 +71,11 @@ body{
     text-decoration: none;
     font-size: 17px;
 }
+#aboutmemesg{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;    
+}
 .aboutme{
     text-align: center;
     color: #3d0c0c;
@@ -64,12 +83,22 @@ body{
     text-decoration: none;
     font-size: 17px;
 }
+#projectsdetails{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;    
+}
 .projects{
     text-align: left;
     color: #3d0c0c;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+#form{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;    
 }
 .contactform{
     text-align: left;
@@ -83,6 +112,14 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+video{
+    width: 400px;
+    padding: 15px;
+    margin: 15px;
+    background-color: #070707;
+    border: 2px white;
+    box-shadow: 10px 10px 5px black;
 }
 footer {
     text-align: center;

@@ -10,31 +10,39 @@ characters-->
 <title>HTML Template</title>
 <!-- The following line links to our style sheet file-->
 <link rel="stylesheet" type="text/css" href="styles.css">
-<div class="title">
-    <h1>Leevian Chen</h1>
-</div>
 </head>
 <!--Content visible in the browser's window is inside the HTML element-->
 <body>
 <!--Navigation bar menu-->
-<div class="topnav">
-    <a href="index.html">Home</a>
-    <a class="active" href="About_Me.html">About Me</a>
-    <a href="Projects.html">Projects</a>
-    <a href="Contacts.html">Contact</a>
-</div>
-<div class="aboutme">
-    <h2>About Me</h2>
-    <img src="Personal_Image.png" style="width:120px;height:160px;" class="image">
-    <p>Hi, my name is Leevian Chen a third year student at Ontario Tech University <br>
-    currently I am studying Networking and IT security.<br>
-    A little bit of information about me is that I am a Taiwanese Canadian and I like the car<br>
-    in this video.</p>
-
+<div id="wrapper">
+    <div id="header" class="title">
+        <h1>Leevian Chen</h1>
+    </div>
+    <div id="navbar">
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a class="active" href="About_Me.html">About Me</a>
+            <a href="Projects.html">Projects</a>
+            <a href="Contacts.html">Contact</a>
+        </div>
+    </div>
+    <div id="aboutmemsg">    
+        <div class="aboutme">
+            <h2>About Me</h2>
+            <img src="Personal_Image.png" style="width:120px;height:160px;" class="image">
+            <p>Hi, my name is Leevian Chen a third year student at Ontario Tech University <br>
+            currently I am studying Networking and IT security.<br>
+            A little bit of information about me is that I am a Taiwanese Canadian watch this video.</p>
+            <video controls="controls">
+                <source src="Personal_Video.mp4" type="video/mp4">
+                <source src="Personal_Video.ogv" type="video/ogg">
+            </video>
+        </div>
+    </div>
 </div>
 <footer>
-<p> Email:<a href="luckychen695402@gmail.com">luckychen695402@gmail.com</a></p>
-<p>© 2023 by Leevian Chen</p>
+    <p> Email:<a href="luckychen695402@gmail.com">luckychen695402@gmail.com</a></p>
+    <p>© 2023 by Leevian Chen</p>
 </footer>
 </body>
 </html>
